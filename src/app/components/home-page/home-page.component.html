@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=,, initial-scale=1.0" />
+    <title>Ana Sayfa</title>
+  </head>
+  <body *ngFor="let section of context">
+    <section id="img-{{ section.id }}">
+      <div class="container">
+        <div class="column">
+          <h3 class="headline col-sm-1">{{ section.headline }}</h3>
+          <div class="middle">
+            <h1 class="home-title">{{ section.title }}</h1>
+            <h1 class="home-title highlight">{{ section.highlight }}</h1>
+            <p>{{ section.description }}</p>
+            <button class="btn btn-outline-light">Detaylı Bilgi <span>-></span></button>
+          </div>
+          <button class="btn btn-outline-light">Kaydırın <span>aşağı ok</span></button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

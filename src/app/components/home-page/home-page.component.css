@@ -1,0 +1,40 @@
+/* setup */
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+
+}
+
+.container{
+    padding:5%;
+    color: white;
+}
+
+section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+}
+
+#img-anlamak {
+  background-image: url("../../../assets/home-page/home01.jpg") !important;
+}
+#img-dunyam {
+  background-image: url("../../../assets/home-page/home02.jpg") !important;
+}
+#img-yasamak {
+  background-image: url("../../../assets/home-page/home03.jpg") !important;
+}
+#img-destekciler {
+  background-image: url("../../../assets/home-page/home04.jpg") !important;
+}
