@@ -1,2 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  width: 100%;
+  height: 100%;
+  background-color: chocolate;
+  overflow: hidden;
+  position:absolute;
+}
 
+.container {
+  width: 100vw;
+  height: 100%;
+  margin-right: 0;
+  padding: 0;
+  right: 0;
+}
+
+div .main-page {
+  position: fixed;
+}

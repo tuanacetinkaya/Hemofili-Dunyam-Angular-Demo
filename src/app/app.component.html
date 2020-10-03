@@ -15,13 +15,12 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <div class="row">
-      <div class="col-2">
-        <app-nav-bar> </app-nav-bar>
-      </div>
-      <div class="col-10">
-        <app-home-page></app-home-page>
-      </div>
+    <!-- navigation bar overlaps with the content. That is balanced with margin in the home-page component -->
+    <!-- <app-nav-bar> </app-nav-bar> -->
+
+    <!-- class main-page will be replaced with the routing module -->
+    <div class="main-page">
+      <app-home-page></app-home-page> 
     </div>
 
     <script
